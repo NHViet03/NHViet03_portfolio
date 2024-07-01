@@ -68,7 +68,6 @@
 .header_menu ul li a {
   display: block;
   font-size: 18px;
-  font-family: var(--font-secondary);
   color: var(--font-secondary);
   margin-right: 24px;
   font-weight: 500;
@@ -96,13 +95,12 @@
   border-radius: 2px;
   margin-top: 2px;
   background-color: var(--color-primary);
-  transition: width 0.4s;
+  transition: width 0.3s;
 
 }
 
 .header_menu ul li a:hover > span {
   width: 100%;
-  transition: width 0.4s;
 }
 
 @media screen and (min-width: 769px) and (max-width: 1199.98px) {

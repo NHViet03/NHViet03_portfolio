@@ -31,7 +31,7 @@ const Introduction = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       setWordIndex((preIndex) => (preIndex + 1) % words.length);
-    }, 4000);
+    }, 3950);
 
     return () => clearInterval(interval);
   }, [words.length]);

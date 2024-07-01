@@ -86,3 +86,11 @@ footer p {
 
 /* Introduction */
 @import url("./introduction.css");
+
+/* About */
+@import url("./about.css");
+
+/* Project */
+@import url("./projects.css");
+@import url("./project_modal.css");
+

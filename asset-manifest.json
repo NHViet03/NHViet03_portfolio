@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/NHViet03_portfolio/static/css/main.030e930e.css",
+    "main.js": "/NHViet03_portfolio/static/js/main.161f289c.js",
+    "static/js/453.76e7b85d.chunk.js": "/NHViet03_portfolio/static/js/453.76e7b85d.chunk.js",
+    "static/media/project_3.png": "/NHViet03_portfolio/static/media/project_3.c22f5ffe5c9a65391845.png",
+    "static/media/project_1.png": "/NHViet03_portfolio/static/media/project_1.e81ac2316b560d501b89.png",
+    "static/media/project_5.png": "/NHViet03_portfolio/static/media/project_5.7ab2dcabadeff6002524.png",
+    "static/media/project_4.png": "/NHViet03_portfolio/static/media/project_4.6cb6d3162647ad34c624.png",
+    "static/media/project_2.png": "/NHViet03_portfolio/static/media/project_2.a46e63a1e11939e1cc97.png",
+    "static/media/giphy.webp": "/NHViet03_portfolio/static/media/giphy.d4e39a618449d8e905b9.webp",
+    "static/media/avatar1.png": "/NHViet03_portfolio/static/media/avatar1.826fc8b691cd6a3c04d1.png",
+    "static/media/logo.png": "/NHViet03_portfolio/static/media/logo.dcce1578ac73506fd8c1.png",
+    "static/media/sqlserver.svg": "/NHViet03_portfolio/static/media/sqlserver.7e3c2025a2f083448bd8b4aa32b126ea.svg",
+    "static/media/expressjs.svg": "/NHViet03_portfolio/static/media/expressjs.ebe71e3af30909288001fd7bc6d0094a.svg",
+    "static/media/visualstudio.svg": "/NHViet03_portfolio/static/media/visualstudio.97cda2d965639f2cca67a0d3436f4522.svg",
+    "static/media/vscode.svg": "/NHViet03_portfolio/static/media/vscode.587ac6bb0a1002a93da72aadd1b7041c.svg",
+    "static/media/react.svg": "/NHViet03_portfolio/static/media/react.f57b349b4d9df56c9b48c916a8d5adfb.svg",
+    "static/media/reactnative.svg": "/NHViet03_portfolio/static/media/reactnative.f57b349b4d9df56c9b48c916a8d5adfb.svg",
+    "static/media/bootstrap.svg": "/NHViet03_portfolio/static/media/bootstrap.93fe84041cc1b588f15c332248529333.svg",
+    "static/media/nodejs.svg": "/NHViet03_portfolio/static/media/nodejs.01defc693b98adf7afa0f02417db9811.svg",
+    "static/media/java.svg": "/NHViet03_portfolio/static/media/java.3d1f1777f72c1a4ca3003a5378491322.svg",
+    "static/media/redux.svg": "/NHViet03_portfolio/static/media/redux.a907b9f98d324503c0c0d9ac2991eb03.svg",
+    "static/media/mongodb.svg": "/NHViet03_portfolio/static/media/mongodb.eb842895e80bd61dd471f2b70345feab.svg",
+    "static/media/python.svg": "/NHViet03_portfolio/static/media/python.4298525c028749eb4fa154f8f5bd1931.svg",
+    "static/media/github.svg": "/NHViet03_portfolio/static/media/github.5531be85d7a8d6f333e5c7136944a022.svg",
+    "static/media/git.svg": "/NHViet03_portfolio/static/media/git.8ee81345da1c18b6cdb4bbe93b464810.svg",
+    "index.html": "/NHViet03_portfolio/index.html",
+    "static/media/js.svg": "/NHViet03_portfolio/static/media/js.0b20a0cb19fd24035d41fe3aedc7fc47.svg",
+    "static/media/oracle.svg": "/NHViet03_portfolio/static/media/oracle.58d32dae99d3cfb0bf13d40e39f94d9a.svg",
+    "static/media/tailwindcss.svg": "/NHViet03_portfolio/static/media/tailwindcss.973c73e85d4daa24b257ba20298716c4.svg",
+    "static/media/html.svg": "/NHViet03_portfolio/static/media/html.0107c93943a8f415b5db64ebb0a9d12d.svg",
+    "static/media/fastapi.svg": "/NHViet03_portfolio/static/media/fastapi.1536093a1656eaee7a8d589641ff2803.svg",
+    "main.030e930e.css.map": "/NHViet03_portfolio/static/css/main.030e930e.css.map",
+    "main.161f289c.js.map": "/NHViet03_portfolio/static/js/main.161f289c.js.map",
+    "453.76e7b85d.chunk.js.map": "/NHViet03_portfolio/static/js/453.76e7b85d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.030e930e.css",
+    "static/js/main.161f289c.js"
+  ]
+}

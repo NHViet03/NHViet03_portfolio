@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, createContext } from "react";
 import Header from "./components/Header";
 import Introduction from "./components/Introduction";
 import About from "./components/About";
@@ -6,9 +6,13 @@ import Projects from "./components/Projects";
 import Resume from "./components/Resume";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+import Alert from "./components/Alert";
+
+export const AppContext = createContext(null);
 
 function App() {
   const [showScroll, setShowScroll] = useState(false);
+  const [alert, setAlert] = useState(false);
 
   useEffect(() => {
     const handler = () => {
@@ -41,22 +45,24 @@ function App() {
   };
 
   return (
-    <div className="App">
-      <Header />
-      <Introduction />
-      <About />
-      <Projects />
-      <Resume />
-      <Contact />
-      <Footer />
-
-      <div
-        className={`scroll_top box_shadow ${showScroll ? "active" : ""}`}
-        onClick={handleScrollTop}
-      >
-        <i className="fa-solid fa-arrow-up" />
+    <AppContext.Provider value={{ alert, setAlert }}>
+      <div className="App">
+        <Header />
+        <Introduction />
+        <About />
+        <Projects />
+        <Resume />
+        <Contact />
+        <Footer />
+        <Alert />
+        <div
+          className={`scroll_top box_shadow ${showScroll ? "active" : ""}`}
+          onClick={handleScrollTop}
+        >
+          <i className="fa-solid fa-arrow-up" />
+        </div>
       </div>
-    </div>
+    </AppContext.Provider>
   );
 }
 

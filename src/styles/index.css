@@ -70,6 +70,45 @@ body {
   font-size: 24px;
 }
 
+/* Alert */
+
+.toast {
+  animation: toastAppear 0.3s ease-in-out forwards;
+}
+
+@keyframes toastAppear {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.toast::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 4px;
+  background-color: var(--color-primary);
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+  animation: toastProgress 3s linear forwards;
+}
+
+@keyframes toastProgress {
+  0% {
+    width: 100%;
+  }
+  100% {
+    width: 0;
+  }
+}
+
 footer {
   padding: 48px;
   border-top: 1px solid var(--border-color);
@@ -94,3 +133,8 @@ footer p {
 @import url("./projects.css");
 @import url("./project_modal.css");
 
+/* Resume */
+@import url("./resume.css");
+
+/* Contact */
+@import url("./contact.css");

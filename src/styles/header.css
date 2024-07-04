@@ -17,7 +17,7 @@
   box-shadow: 10px 10px 19px rgba(0, 0, 0, 0.1);
   opacity: 1;
   animation: animation_shrink 0.3s normal;
-  background-color: #fff;
+  background:var(--gradient-box-w)
 }
 
 .header.header_shrunk img {

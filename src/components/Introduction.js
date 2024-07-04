@@ -1,8 +1,9 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import Avatar from "../images/avatar1.png";
 
 const Introduction = () => {
   const [wordIndex, setWordIndex] = useState(0);
+  const ref = useRef(null);
 
   const words = [
     "FullStack Developer.",
@@ -31,7 +32,7 @@ const Introduction = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       setWordIndex((preIndex) => (preIndex + 1) % words.length);
-    }, 3950);
+    }, 4000);
 
     return () => clearInterval(interval);
   }, [words.length]);
@@ -52,7 +53,10 @@ const Introduction = () => {
                 }}
               >
                 <span>a</span>
-                <span className="intro_content_headline_words_wrapper">
+                <span
+                  ref={ref}
+                  className="intro_content_headline_words_wrapper"
+                >
                   {words.map((word, index) => (
                     <b
                       key={index}

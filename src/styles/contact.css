@@ -9,6 +9,7 @@
   color: var(--color-body-white);
   font-size: 48px;
   font-weight: 700;
+  padding: 0 16px;
 }
 
 .contact_left {
@@ -88,21 +89,20 @@ form button[type="submit"] i {
 form button[type="submit"]:hover {
   box-shadow: unset;
   background: var(--color-primary);
-  color:#fff;
+  color: #fff;
   transform: translateY(-3px);
 }
 
-
 @media screen and (max-width: 1024px) {
   .contact_left {
-    margin-right: 0;
     margin-bottom: 24px;
     width: 100%;
-    padding:0;
     max-height: 500px;
+    padding: 0 16px;
   }
+
   .contact_right {
     width: 100%;
-    margin-left: 0;
+    margin: 0 16px;
   }
 }

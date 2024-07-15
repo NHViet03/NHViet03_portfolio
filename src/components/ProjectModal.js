@@ -12,7 +12,13 @@ const ProjectModal = ({ project, handleClose }) => {
       <div className="project_modal_container">
         <div className="col">
           <div className="project_modal_container_img">
-            <img src={project.image} alt={project.name} />
+            <img
+              src={project.image}
+              alt={project.name}
+              style={{
+                maxHeight: project.maxImageHeight ? project.maxImageHeight : "",
+              }}
+            />
           </div>
         </div>
         <div className="col">
@@ -21,7 +27,6 @@ const ProjectModal = ({ project, handleClose }) => {
               <h5
                 style={{
                   fontSize: project.headerSize ? project.headerSize : "",
-
                 }}
               >
                 {project.name}
@@ -34,7 +39,7 @@ const ProjectModal = ({ project, handleClose }) => {
                 style={{
                   width: project.width ? project.width : "",
                   fontSize: project.descSize ? project.descSize : "",
-                  lineHeight: project.descSize ? 'unset' : "",
+                  lineHeight: project.descSize ? "unset" : "",
                 }}
               >
                 {project.desc}

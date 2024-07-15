@@ -8,7 +8,6 @@ import Project6 from "../images/project_6.png";
 import Project7 from "../images/project_7.png";
 import Project8 from "../images/project_8.png";
 
-
 import ProjectModal from "./ProjectModal";
 
 const projects = [
@@ -28,8 +27,7 @@ const projects = [
     link: "https://github.com/NHViet03/IS405_BigData_MapReduce_KNN",
     members: 1,
     desc: "A MapReduce-Based k-Nearest Neighbor Approach for Big Data Classification on Apache Spark",
-    technologies:
-      "Apache Spark, PySpark, MapReduce, Jupyter Notebook",
+    technologies: "Apache Spark, PySpark, MapReduce, Jupyter Notebook",
     date: "Apr 2024 - May 2024",
   },
   {
@@ -38,7 +36,8 @@ const projects = [
     link: "https://drive.google.com/file/d/1LdI9EwqBY5b2bg2WTFXLSTxWRU0cknXX/view",
     members: 5,
     desc: "This project aims to predict the closing prices of three cryptocurrencies—Bitcoin (BTC), Ethereum (ETH), and Litecoin (LTC)—for the next 30, 60, and 90 days, using data from March 1, 2019, to June 1, 2024. My main role: ARIMA Model, Multi-layer Perceptron (MLP)",
-    technologies: "Python (NumPy, Pandas, Tensorflow, etc), Latex, Jupyter Notebook",
+    technologies:
+      "Python (NumPy, Pandas, Tensorflow, etc), Latex, Jupyter Notebook",
     date: "Feb 2024 - May 2024",
   },
   {
@@ -47,11 +46,12 @@ const projects = [
     link: "https://github.com/NHViet03/IS252_DataMining_KNN_PLA",
     members: 1,
     desc: "Implementing 2 basic classification algorithms: K-Nearest Neighbor (KNN) and Perceptron Learning Algorithm (PLA) to predict the likelihood of customers subscribing to term deposits. The process from manual calculation based on mathematical formulas to utilizing libraries.",
-    technologies: "Python (NumPy, Pandas, Matplotlib, Scikit-learn, etc), Jupyter Notebook",
+    technologies:
+      "Python (NumPy, Pandas, Matplotlib, Scikit-learn, etc), Jupyter Notebook",
     date: "Feb 2024 - May 2024",
-    width:"100%",
-    headerSize:'30px',
-    descSize:'16px'
+    width: "100%",
+    headerSize: "30px",
+    descSize: "16px",
   },
   {
     name: "Web Airline Ticket Management",
@@ -71,6 +71,7 @@ const projects = [
     technologies:
       "React Native, React, Expo Router, Redux, TailwindCSS, NodeJS, ExpressJS, Socket.IO, MongoDB",
     date: "Nov 2023 - Jan 2024",
+    maxImageHeight: "350px",
   },
   {
     name: "Web eCommerce",

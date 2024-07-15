@@ -1,18 +1,21 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.09c2036a.css",
-    "main.js": "/portfolio/static/js/main.baf05888.js",
+    "main.css": "/portfolio/static/css/main.858939d9.css",
+    "main.js": "/portfolio/static/js/main.8c7f5bb2.js",
     "static/js/453.3f70916e.chunk.js": "/portfolio/static/js/453.3f70916e.chunk.js",
     "static/media/project_3.png": "/portfolio/static/media/project_3.c22f5ffe5c9a65391845.png",
     "static/media/project_1.png": "/portfolio/static/media/project_1.e81ac2316b560d501b89.png",
     "static/media/project_5.png": "/portfolio/static/media/project_5.7ab2dcabadeff6002524.png",
     "static/media/project_4.png": "/portfolio/static/media/project_4.6cb6d3162647ad34c624.png",
     "static/media/project_2.png": "/portfolio/static/media/project_2.a46e63a1e11939e1cc97.png",
+    "static/media/project_7.png": "/portfolio/static/media/project_7.b3b80631f627098b6317.png",
     "static/media/giphy.webp": "/portfolio/static/media/giphy.d4e39a618449d8e905b9.webp",
     "static/media/earth1.webp": "/portfolio/static/media/earth1.af1543ec01ef10b4248b.webp",
+    "static/media/project_8.png": "/portfolio/static/media/project_8.e49d6dfe1e7b804ae8e9.png",
+    "static/media/project_6.png": "/portfolio/static/media/project_6.0bf7ad7d08f7c48369cc.png",
     "static/media/avatar1.png": "/portfolio/static/media/avatar1.826fc8b691cd6a3c04d1.png",
     "static/media/logo.png": "/portfolio/static/media/logo.dcce1578ac73506fd8c1.png",
-    "static/media/CV - Nguyen Hoang Viet.pdf": "/portfolio/static/media/CV - Nguyen Hoang Viet.dd45c1a04b0d7a6a25be.pdf",
+    "static/media/CV - Nguyen Hoang Viet.pdf": "/portfolio/static/media/CV - Nguyen Hoang Viet.6c179941c220dc70ae51.pdf",
     "static/media/sqlserver.svg": "/portfolio/static/media/sqlserver.7e3c2025a2f083448bd8b4aa32b126ea.svg",
     "static/media/expressjs.svg": "/portfolio/static/media/expressjs.ebe71e3af30909288001fd7bc6d0094a.svg",
     "static/media/visualstudio.svg": "/portfolio/static/media/visualstudio.97cda2d965639f2cca67a0d3436f4522.svg",
@@ -33,12 +36,12 @@
     "static/media/tailwindcss.svg": "/portfolio/static/media/tailwindcss.973c73e85d4daa24b257ba20298716c4.svg",
     "static/media/html.svg": "/portfolio/static/media/html.0107c93943a8f415b5db64ebb0a9d12d.svg",
     "static/media/fastapi.svg": "/portfolio/static/media/fastapi.1536093a1656eaee7a8d589641ff2803.svg",
-    "main.09c2036a.css.map": "/portfolio/static/css/main.09c2036a.css.map",
-    "main.baf05888.js.map": "/portfolio/static/js/main.baf05888.js.map",
+    "main.858939d9.css.map": "/portfolio/static/css/main.858939d9.css.map",
+    "main.8c7f5bb2.js.map": "/portfolio/static/js/main.8c7f5bb2.js.map",
     "453.3f70916e.chunk.js.map": "/portfolio/static/js/453.3f70916e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.09c2036a.css",
-    "static/js/main.baf05888.js"
+    "static/css/main.858939d9.css",
+    "static/js/main.8c7f5bb2.js"
   ]
 }

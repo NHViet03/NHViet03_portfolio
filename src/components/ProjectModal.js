@@ -18,12 +18,27 @@ const ProjectModal = ({ project, handleClose }) => {
         <div className="col">
           <div className="project_modal_container_info">
             <div>
-              <h5>{project.name}</h5>
+              <h5
+                style={{
+                  fontSize: project.headerSize ? project.headerSize : "",
+
+                }}
+              >
+                {project.name}
+              </h5>
               <div className="project_list_item_info">
                 <span>Members: {project.members}</span>
                 <span>{project.date}</span>
               </div>
-              <p>{project.desc}</p>
+              <p
+                style={{
+                  width: project.width ? project.width : "",
+                  fontSize: project.descSize ? project.descSize : "",
+                  lineHeight: project.descSize ? 'unset' : "",
+                }}
+              >
+                {project.desc}
+              </p>
               <h6>Technologies Used: {project.technologies}</h6>
             </div>
             <a href={project.link} target="_blank" rel="noreferrer">

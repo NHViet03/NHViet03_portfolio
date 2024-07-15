@@ -42,13 +42,16 @@ const projects = [
     date: "Feb 2024 - May 2024",
   },
   {
-    name: "Data Mining: Predict The Likelihood of Customers Subscribing To Term Deposits",
+    name: "Predict The Likelihood of Customers Subscribing To Term Deposits",
     image: Project8,
     link: "https://github.com/NHViet03/IS252_DataMining_KNN_PLA",
     members: 1,
-    desc: "Implementing 2 basic classification algorithms: K-Nearest Neighbor (KNN) and Perceptron Learning Algorithm (PLA) to predict the likelihood of customers subscribing to term deposits. The implementation process from manual calculation based on mathematical formulas to utilizing libraries.",
+    desc: "Implementing 2 basic classification algorithms: K-Nearest Neighbor (KNN) and Perceptron Learning Algorithm (PLA) to predict the likelihood of customers subscribing to term deposits. The process from manual calculation based on mathematical formulas to utilizing libraries.",
     technologies: "Python (NumPy, Pandas, Matplotlib, Scikit-learn, etc), Jupyter Notebook",
     date: "Feb 2024 - May 2024",
+    width:"100%",
+    headerSize:'30px',
+    descSize:'16px'
   },
   {
     name: "Web Airline Ticket Management",
